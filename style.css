@@ -18,3 +18,15 @@ ol{
     color: #1d3557;
     background-color: #f1faee;
 }
+ul{
+    list-style-type: none;
+    color: #a7dadc;
+}
+ul li::before{
+    content: "\2022";
+    color: #e63946;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
