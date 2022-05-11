@@ -1,6 +1,13 @@
+body{
+    background-color: #1d3557;
+}
 h1{
-    color: blue;
+    color: #e63946;
 }
 ul{
-    color: skyblue;
+    list-style-type: disc;
+    color: #a8dadc;
+}
+ol{
+    color: #f1faee;
 }
