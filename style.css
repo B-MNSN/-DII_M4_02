@@ -2,34 +2,27 @@ body{
     background-color: #1d3557;
 }
 h1{
-    color: #e63946;
-}
-ul{
-    list-style-type: disc;
-    color: #a8dadc;
+    color: #fcbb6d;
+    background-color: #685d79;
 }
 ol{
     color: #f1faee;
-}
-.non_sporting{
-    background-color: #45789d;
-}
-#shepherd{
-    color: #1d3557;
-    background-color: #f1faee;
+    background-color: #d8737f;
 }
 ul{
     list-style-type: none;
-    color: #a7dadc;
 }
 ul li::before{
     content: "\2022";
-    color: #e63946;
+    color: #fcbb6d;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -2em;
 }
-ul>li:nth-child(odd){
-    color: #e63946;
+ol>li:nth-child(odd){
+    background-color: #ab6c82;
+}
+ol>li:nth-child(even){
+    background-color: #685d79;
 }
